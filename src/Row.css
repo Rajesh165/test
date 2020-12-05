@@ -1,0 +1,33 @@
+.body{
+    background-color: black;
+}
+.row_poster{
+    object-fit: contain;
+    width: 100%;
+    max-height: 100px;
+    margin-right: 10px;
+    transition: transform 450ms; 
+}
+.row_posters{
+    display: flex; 
+    overflow-y: hidden;
+    overflow-x: scroll; 
+    padding: 20px;  
+}
+.row_poster:hover{
+    transform: scale(1.08);
+    opacity: 1 ;
+}
+.row_posters::-webkit-scrollbar{
+    display: None;
+}
+/* h2{
+    color: blanchedalmond;
+} */
+.row_posterLarge{
+    max-height: 350px;
+    margin-right: 10px;
+}
+.row_posterLarge{
+    transform: scale(1.09);
+}
